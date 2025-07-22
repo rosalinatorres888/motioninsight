@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotionInsight - Rosalina Torres | Data Science Portfolio</title>
+    <meta name="description" content="Revolutionary human activity recognition through entropy analysis. 10,299 samples analyzed with 27.8% vertical axis dominance discovery.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .stat {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 40px 0;
+        }
+
+        .nav-btn {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+        }
+
+        .nav-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(231, 76, 60, 0.6);
+        }
+
+        .nav-btn.secondary {
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+        }
+
+        .nav-btn.secondary:hover {
+            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.6);
+        }
+
+        .contact {
+            margin-top: 50px;
+            font-size: 1.1rem;
+        }
+
+        .contact a {
+            color: #4ecdc4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .nav-buttons { flex-direction: column; align-items: center; }
+            .nav-btn { width: 250px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>MotionInsight</h1>
+        <p class="subtitle">Revolutionary Human Activity Recognition Through Advanced Entropy Analysis</p>
+        
+        <div class="stats">
+            <div class="stat">
+                <span class="stat-value">10,299</span>
+                <span class="stat-label">Samples Analyzed</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">27.8%</span>
+                <span class="stat-label">Vertical Dominance</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">$188B</span>
+                <span class="stat-label">Market Opportunity</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">95.3%</span>
+                <span class="stat-label">Statistical Significance</span>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="story.html" class="nav-btn">📖 Experience the Story</a>
+            <a href="executive.html" class="nav-btn secondary">💼 Executive Summary</a>
+            <a href="technical.html" class="nav-btn secondary">🔬 Technical Deep Dive</a>
+        </div>
+
+        <div class="contact">
+            <p>Created by <strong>Rosalina Torres</strong></p>
+            <p>Data Analytics Engineering Student | ML/AI Enthusiast</p>
+            <p>📧 <a href="mailto:torres.ros@northeastern.edu">torres.ros@northeastern.edu</a></p>
+        </div>
+    </div>
+</body>
+</html>
